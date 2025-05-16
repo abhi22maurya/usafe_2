@@ -1,0 +1,276 @@
+.three-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  overflow: hidden;
+}
+
+.three-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+  touch-action: none;
+}
+
+.building-info {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  width: 300px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.building-info h3 {
+  margin: 0 0 10px 0;
+  color: #4CAF50;
+}
+
+.building-info p {
+  margin: 0 0 15px 0;
+  opacity: 0.8;
+}
+
+.risk-indicator {
+  margin: 10px 0;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.risk-bar {
+  height: 4px;
+  background: linear-gradient(90deg, #4CAF50, #FFC107, #F44336);
+  border-radius: 2px;
+  margin-top: 4px;
+}
+
+.recommendations {
+  margin: 15px 0;
+}
+
+.recommendations h4 {
+  margin: 0 0 10px 0;
+  color: #FFC107;
+}
+
+.recommendations ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recommendations li {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.recommendations li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #4CAF50;
+}
+
+.ai-info {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  min-width: 200px;
+  max-width: 90vw;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  transform: scale(0.8);
+  transition: transform 0.2s ease;
+}
+
+.ai-controls {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.ai-controls button {
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ai-controls button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.ai-controls button.active {
+  background: rgba(0, 150, 255, 0.3);
+  border-color: rgba(0, 150, 255, 0.5);
+}
+
+.ai-analytics {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.analytics-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.analytics-controls select {
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.analytics-chart {
+  height: 200px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.metrics {
+  margin: 15px 0;
+}
+
+.metric {
+  margin-bottom: 10px;
+}
+
+.metric span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.progress-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 5px 0;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.resources {
+  margin: 15px 0;
+}
+
+.resources h4 {
+  margin: 0 0 10px 0;
+  color: #2196F3;
+}
+
+.resource {
+  margin-bottom: 8px;
+}
+
+.resource span {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.alerts {
+  margin: 15px 0;
+  padding: 10px;
+  background: rgba(255, 0, 0, 0.1);
+  border-radius: 10px;
+  border-left: 3px solid #F44336;
+}
+
+.alerts h4 {
+  margin: 0 0 10px 0;
+  color: #F44336;
+}
+
+.alert {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.alert:before {
+  content: '⚠️';
+  position: absolute;
+  left: 0;
+}
+
+.offline-indicator {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 0, 0, 0.2);
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  z-index: 1000;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+@media (max-width: 768px) {
+  .three-container {
+    height: 80vh;
+  }
+
+  .ai-controls {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    justify-content: center;
+  }
+
+  .ai-controls button {
+    padding: 6px 12px;
+    font-size: 0.9em;
+  }
+
+  .ai-analytics {
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 15px;
+  }
+
+  .building-info {
+    width: 250px;
+    padding: 15px;
+  }
+} 

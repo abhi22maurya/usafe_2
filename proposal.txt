@@ -1,0 +1,66 @@
+Uttarakhand Safe: Disaster Management Platform
+============================================
+
+User Manual & Project Proposal
+-----------------------------
+
+## What is Uttarakhand Safe?
+Uttarakhand Safe is a comprehensive web-based disaster management platform tailored for the Uttarakhand region. It empowers citizens, authorities, and volunteers with real-time alerts, AI-powered risk assessment, community reporting, resource management, and post-disaster recovery support.
+
+## Who is it for?
+- **Residents**: Stay informed, report incidents, find safe routes, request help, and access recovery resources.
+- **Authorities**: Monitor disaster trends, manage resources, and coordinate response.
+- **Volunteers/NGOs**: Register, coordinate relief, and assist in recovery efforts.
+
+## Key Features & How to Use
+
+### 1. Disaster Alert System
+- **Receive real-time alerts** for floods, landslides, and earthquakes.
+- **How**: Alerts appear instantly on the dashboard and via push notifications.
+
+### 2. Personalized Risk Assessment
+- **AI-powered risk analysis** based on your location and environmental factors.
+- **How**: Visit the Personalized Risk Assessment page, allow location access or enter your location, and get instant risk levels and safety tips.
+
+### 3. Community Engagement
+- **Share disaster experiences** with text and images.
+- **How**: Go to Community Reports, post your experience, and view others' reports. The system analyzes posts and can alert authorities if needed.
+
+### 4. Emergency Resources
+- **Quick access to emergency contacts** (police, medical, disaster response).
+- **How**: Use the Emergency Contacts page for one-tap calling.
+- **Track relief resources** (food, water, shelter, medical supplies) across locations.
+- **How**: Open Resource Management to view maps, inventory, and analytics.
+
+### 5. SafeRoute Navigation
+- **AI-powered evacuation routes** to the nearest safe zone.
+- **How**: Go to SafeRoute, select your destination or a suggested safe zone, and follow the mapped route.
+
+### 6. Recovery Support
+- **Access government/NGO aid schemes, request help, and mental health support.**
+- **How**: Open Recovery Support, browse schemes, fill help requests, or contact support services.
+
+### 7. Analytics & Visualization
+- **View disaster trends, predictions, and resource analytics.**
+- **How**: Use the Visualization Dashboard and Resource Management analytics tabs.
+
+### 8. Assistance Chatbot
+- **24/7 AI-powered help for disaster queries.**
+- **How**: Chat with the Assistance Chatbot for instant answers, evacuation guidance, and support.
+
+## Getting Started
+1. **Visit the Website**: Open the Uttarakhand Safe web app on any device.
+2. **Navigation**: Use the side menu to access all features.
+3. **Language**: Switch between English and Hindi as needed.
+4. **Account**: (Optional) Register for personalized features and volunteering.
+
+## FAQ
+- **Is my data secure?** Yes, user privacy and security are prioritized.
+- **Can I use it offline?** Some features require internet for real-time data.
+- **Who manages the platform?** Developed for Uttarakhand disaster resilience, ready for integration with local authorities.
+
+## Contact & Support
+For issues or suggestions, use the Recovery Support or Community pages, or contact the project team via the website.
+
+---
+This manual serves as both a project proposal and user guide, ensuring all stakeholders can understand, use, and benefit from Uttarakhand Safe.
